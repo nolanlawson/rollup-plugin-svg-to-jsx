@@ -1,0 +1,42 @@
+{
+  "name": "rollup-plugin-svg-to-jsx",
+  "version": "1.0.0",
+  "description": "Rollup plugin for svg-to-jsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha",
+    "standard": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolanlawson/rollup-plugin-svg-to-jsx.git"
+  },
+  "keywords": [],
+  "author": "Nolan Lawson <nolan@nolanlawson.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nolanlawson/rollup-plugin-svg-to-jsx/issues"
+  },
+  "homepage": "https://github.com/nolanlawson/rollup-plugin-svg-to-jsx#readme",
+  "dependencies": {
+    "magic-string": "^0.22.4",
+    "rollup-pluginutils": "^2.0.1",
+    "svg-to-jsx": "0.0.21"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "mocha": "^3.5.3",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "ignore": [
+      "dist/**",
+      "test/samples/**"
+    ]
+  }
+}

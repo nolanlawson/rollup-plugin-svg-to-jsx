@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-svg-to-jsx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Rollup plugin for svg-to-jsx",
   "main": "index.js",
   "scripts": {

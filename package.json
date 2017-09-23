@@ -21,7 +21,7 @@
   "dependencies": {
     "magic-string": "^0.22.4",
     "rollup-pluginutils": "^2.0.1",
-    "svg-to-jsx": "0.0.21"
+    "svg-to-jsx": "^0.0.21"
   },
   "devDependencies": {
     "assert": "^1.4.1",

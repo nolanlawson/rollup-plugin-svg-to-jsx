@@ -1,4 +1,4 @@
-rollup-plugin-svg-to-jsx
+rollup-plugin-svg-to-jsx [![Build Status](https://travis-ci.org/nolanlawson/rollup-plugin-svg-to-jsx.svg?branch=master)](https://travis-ci.org/nolanlawson/rollup-plugin-svg-to-jsx)
 =====
 
 Rollup plugin for [svg-to-jsx](https://github.com/janjakubnanista/svg-to-jsx).

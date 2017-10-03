@@ -7,7 +7,7 @@ Rollup plugin for [svg-to-jsx](https://github.com/janjakubnanista/svg-to-jsx).
 npm install rollup-plugin-svg-to-jsx
 ```
 
-Config:
+### Config
 
 ```js
 // rollup.config.js
@@ -46,3 +46,11 @@ export default {
 }
 ```
 
+### Output format
+
+Following [react-svg-loader](https://github.com/boopathi/react-svg-loader), the output format is:
+
+```jsx
+import React from "react";
+export default props => <svg {...props}>{svgContent}</svg>;
+```

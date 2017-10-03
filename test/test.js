@@ -18,10 +18,12 @@ describe('rollup-plugin-svg-to-jsx', function () {
         plugins: [
           thePlugin(),
           babel({
-            runtimeHelpers: true,
-            presets: [['es2015', { modules: false }], 'react']
+            presets: ['react'],
+            plugins: ['external-helpers'],
+            externalHelpers: true
           })
-        ]
+        ],
+        external: ['react']
       }).then(function (bundle) {
         return bundle.generate({
           format: 'es'

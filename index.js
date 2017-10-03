@@ -13,7 +13,8 @@ module.exports = function (options) {
 
       var s = new MagicString(code)
       return svgToJsx(code).then(function (jsx) {
-        var result = 'export default (' + jsx + ')'
+        var result = 'import React from "react";\nexport default props => ' +
+          jsx.replace(/^<svg/, '<svg {...props}') + ';\n'
         s.overwrite(0, code.length, result)
         return {
           code: s.toString(),
